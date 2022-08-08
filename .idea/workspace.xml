@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="">
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="Created notebooks for different functionalities">
+      <change afterPath="$PROJECT_DIR$/backend/notebooks/.ipynb_checkpoints/regex tutorial-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/notebooks/regex tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/notebooks/resources/patient_details/pd_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/notebooks/resources/patient_details/pd_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/patient_details/pd_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/patient_details/pd_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/prescription/pre_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/prescription/pre_2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659932200924</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created notebooks for different functionalities">
+      <created>1659958969624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659958969624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created notebooks for different functionalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created notebooks for different functionalities" />
   </component>
 </project>
