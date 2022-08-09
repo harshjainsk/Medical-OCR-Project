@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="modularised the code">
-      <change afterPath="$PROJECT_DIR$/backend/src/util.py" afterDir="false" />
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="extracting text from image">
+      <change afterPath="$PROJECT_DIR$/backend/src/parser_generic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/parser_prescription.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/extractor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <recent name="C:\Users\harsh\OneDrive\Desktop\Coding\Mediacal-OCR-Project" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.parser_prescription">
     <configuration name="extractor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +69,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parser_prescription" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mediacal-OCR-Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/parser_prescription.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.parser_prescription" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659966708571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created util for common functions">
+      <created>1660021723907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660021723907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="extracting text from image">
+      <created>1660021785123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660021785123</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +151,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created notebooks for different functionalities" />
     <MESSAGE value="modularised the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="modularised the code" />
+    <MESSAGE value="created util for common functions" />
+    <MESSAGE value="extracting text from image" />
+    <option name="LAST_COMMIT_MESSAGE" value="extracting text from image" />
   </component>
 </project>
