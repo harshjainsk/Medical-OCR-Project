@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="Created notebooks for different functionalities">
-      <change afterPath="$PROJECT_DIR$/backend/notebooks/.ipynb_checkpoints/regex tutorial-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/notebooks/regex tutorial.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/notebooks/resources/patient_details/pd_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/notebooks/resources/patient_details/pd_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/patient_details/pd_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/patient_details/pd_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/prescription/pre_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/prescription/pre_2.pdf" afterDir="false" />
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="modularised the code">
+      <change afterPath="$PROJECT_DIR$/backend/src/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/extractor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Blank Requirements File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -42,11 +38,17 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\harsh\OneDrive\Desktop\Coding\Mediacal-OCR-Project" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="extractor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/extractor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659958969624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modularised the code">
+      <created>1659966708571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659966708571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created notebooks for different functionalities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created notebooks for different functionalities" />
+    <MESSAGE value="modularised the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="modularised the code" />
   </component>
 </project>
