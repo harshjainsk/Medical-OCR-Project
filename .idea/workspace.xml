@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="extracting text from image">
-      <change afterPath="$PROJECT_DIR$/backend/src/parser_generic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/parser_prescription.py" afterDir="false" />
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="created generic parser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/parser_prescription.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/parser_prescription.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660021785123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created prescription parser">
+      <created>1660027366430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660027366430</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created generic parser">
+      <created>1660027388678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660027388678</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +166,8 @@
     <MESSAGE value="modularised the code" />
     <MESSAGE value="created util for common functions" />
     <MESSAGE value="extracting text from image" />
-    <option name="LAST_COMMIT_MESSAGE" value="extracting text from image" />
+    <MESSAGE value="created prescription parser" />
+    <MESSAGE value="created generic parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="created generic parser" />
   </component>
 </project>
