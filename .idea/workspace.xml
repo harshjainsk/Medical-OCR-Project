@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="added 3 more unit tests">
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="created patient details parser">
+      <change afterPath="$PROJECT_DIR$/backend/src/parser_patient_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_patient_details_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="C:\Users\harsh\OneDrive\Desktop\Coding\Mediacal-OCR-Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_prescription_parser.py">
+  <component name="RunManager" selected="Python tests.pytest in test_patient_details_parser.py">
     <configuration name="extractor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,6 +105,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_patient_details_parser.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Mediacal-OCR-Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/backend/tests/test_patient_details_parser.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_prescription_parser.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_patient_details_parser.py" />
         <item itemvalue="Python tests.pytest in test_prescription_parser.py" />
         <item itemvalue="Python tests.pytest for test_prescription_parser.test_get_address" />
         <item itemvalue="Python.parser_prescription" />
@@ -207,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660070249446</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added adaptive threshold">
+      <created>1660158159124</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660158159124</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created patient details parser">
+      <created>1660158234169</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660158234169</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +265,8 @@
     <MESSAGE value="started unit testing" />
     <MESSAGE value="created some unit tests" />
     <MESSAGE value="added 3 more unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 3 more unit tests" />
+    <MESSAGE value="added adaptive threshold" />
+    <MESSAGE value="created patient details parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="created patient details parser" />
   </component>
 </project>
