@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="created patient details parser">
-      <change afterPath="$PROJECT_DIR$/backend/src/parser_patient_details.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/test_patient_details_parser.py" afterDir="false" />
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="created unit tests for patient details parser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/extractor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <recent name="C:\Users\harsh\OneDrive\Desktop\Coding\Mediacal-OCR-Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_patient_details_parser.py">
+  <component name="RunManager" selected="Python.extractor">
     <configuration name="extractor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660158234169</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="extracted details from patient details">
+      <created>1660159524640</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660159524640</updated>
+    </task>
+    <task id="LOCAL-00014" summary="created unit tests for patient details parser">
+      <created>1660159576299</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660159576299</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +280,8 @@
     <MESSAGE value="added 3 more unit tests" />
     <MESSAGE value="added adaptive threshold" />
     <MESSAGE value="created patient details parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="created patient details parser" />
+    <MESSAGE value="extracted details from patient details" />
+    <MESSAGE value="created unit tests for patient details parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="created unit tests for patient details parser" />
   </component>
 </project>
