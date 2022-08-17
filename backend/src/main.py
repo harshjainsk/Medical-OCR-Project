@@ -1,6 +1,8 @@
 from fastapi import FastAPI, Form, UploadFile, File
 import uvicorn
 from extractor import extract
+import uuid
+
 
 app = FastAPI()
 
@@ -12,7 +14,7 @@ def extract_from_doc(
 ):
     content = file.file.read()
 
-    file_path = "../uploads/test.pdf"
+    file_path = "../uploads/" + str(uuid.uuid4()) + ".pdf"
 
     with open(file_path, "wb") as f:
         f.write(content)
