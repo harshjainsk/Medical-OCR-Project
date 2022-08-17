@@ -20,7 +20,7 @@ def extract(file_path, file_format):
         text = pytesseract.image_to_string(processed_image, lang='eng')
         document_text = '\n' + text
 
-    if file_format == 'prescripton':
+    if file_format == 'prescription':
         # extracting data from prescription
         extracted_data = PrescriptionParser(document_text).parse()
 
