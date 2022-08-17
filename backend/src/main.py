@@ -2,6 +2,7 @@ from fastapi import FastAPI, Form, UploadFile, File
 import uvicorn
 from extractor import extract
 import uuid
+import os
 
 
 app = FastAPI()
@@ -19,7 +20,17 @@ def extract_from_doc(
     with open(file_path, "wb") as f:
         f.write(content)
 
-    data = extract(file_path, file_format)
+    try:
+        data = extract(file_path, file_format)
+
+    except Exception as e:
+        data = {
+            'error': str(e)
+        }
+
+
+    if os.path.exists(file_path):
+        os.remove(file_path)
 
     return data
 

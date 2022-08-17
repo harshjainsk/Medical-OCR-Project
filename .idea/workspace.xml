@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="created unit tests for patient details parser">
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="added uuid functionality to name all incoming files dynamically">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="C:\Users\harsh\OneDrive\Desktop\Coding\Mediacal-OCR-Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.extractor">
+  <component name="RunManager" selected="Python.main">
     <configuration name="extractor" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,6 +59,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/extractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mediacal-OCR-Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,6 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.pytest in test_patient_details_parser.py" />
         <item itemvalue="Python tests.pytest in test_prescription_parser.py" />
         <item itemvalue="Python tests.pytest for test_prescription_parser.test_get_address" />
@@ -252,7 +274,42 @@
       <option name="project" value="LOCAL" />
       <updated>1660159576299</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="using extractor.py to extract details of the document">
+      <created>1660161073352</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660161073352</updated>
+    </task>
+    <task id="LOCAL-00016" summary="line number 23 prescription spelling">
+      <created>1660714799706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660714799706</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FASTAPI testing">
+      <created>1660714826914</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660714826914</updated>
+    </task>
+    <task id="LOCAL-00018" summary="created post request to send doc">
+      <created>1660714974506</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660714974506</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added uuid functionality to name all incoming files dynamically">
+      <created>1660715826624</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660715826624</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +339,11 @@
     <MESSAGE value="created patient details parser" />
     <MESSAGE value="extracted details from patient details" />
     <MESSAGE value="created unit tests for patient details parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="created unit tests for patient details parser" />
+    <MESSAGE value="using extractor.py to extract details of the document" />
+    <MESSAGE value="line number 23 prescription spelling" />
+    <MESSAGE value="FASTAPI testing" />
+    <MESSAGE value="created post request to send doc" />
+    <MESSAGE value="added uuid functionality to name all incoming files dynamically" />
+    <option name="LAST_COMMIT_MESSAGE" value="added uuid functionality to name all incoming files dynamically" />
   </component>
 </project>
