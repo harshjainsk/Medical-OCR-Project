@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="added uuid functionality to name all incoming files dynamically">
+    <list default="true" id="fdc3ce1a-3be7-4945-a0e1-5a60f14da023" name="Changes" comment="added exception handling">
+      <change afterPath="$PROJECT_DIR$/images/patient-details-after-preprocessing.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/patient-details-before-preprocessing.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/notebooks/patient_details_parser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/notebooks/patient_details_parser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/notebooks/prescription_parser.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/parser_patient_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/parser_patient_details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/parser_prescription.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/parser_prescription.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/100DaysOfDL&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -88,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parser_prescription" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="parser_patient_details" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mediacal-OCR-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/parser_prescription.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/parser_patient_details.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,10 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.parser_patient_details" />
         <item itemvalue="Python tests.pytest in test_patient_details_parser.py" />
         <item itemvalue="Python tests.pytest in test_prescription_parser.py" />
         <item itemvalue="Python tests.pytest for test_prescription_parser.test_get_address" />
-        <item itemvalue="Python.parser_prescription" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660715826624</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added exception handling">
+      <created>1660717184290</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660717184290</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,6 +358,7 @@
     <MESSAGE value="FASTAPI testing" />
     <MESSAGE value="created post request to send doc" />
     <MESSAGE value="added uuid functionality to name all incoming files dynamically" />
-    <option name="LAST_COMMIT_MESSAGE" value="added uuid functionality to name all incoming files dynamically" />
+    <MESSAGE value="added exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added exception handling" />
   </component>
 </project>
