@@ -54,7 +54,7 @@ This project extracts useful information from prescription or patient details pd
 <hr>
 
 # API endpoints
-The <a href="https://github.com/harshjainsk/Medical-OCR-Project/blob/main/backend/src/parser_patient_details.py">main.py</a> file contains the API end-points for this application. Provided the document type and document, the script will return a json object of the extracted fields.
+The <a href="https://github.com/harshjainsk/Medical-OCR-Project/blob/main/backend/src/main.py">main.py</a> file contains the API end-points for this application. Provided the document type and document, the script will return a json object of the extracted fields.
 
 <div align="center"> 
 <img width="90%" height="90%" src="https://github.com/harshjainsk/Medical-OCR-Project/blob/main/images/Medical-OCR-API-Demo.gif" hspace="10">
